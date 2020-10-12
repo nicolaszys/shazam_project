@@ -22,10 +22,9 @@ Ce fichier donne les caractéristiques pour la musique comme le :
 - Chroma Frequencies : Chroma features are an interesting and powerful representation for music audio in which the entire spectrum is projected onto 12 bins representing the 12 distinct semitones (or chroma) of the musical octave.  
 
 
-La prédiction se fait à partir d'un lien youtube.  
+### Les étapes de l'algorithme
 
-### Les étapes
-
+0. La prédiction se fait à partir d'un lien youtube. Mettre le lien youtube de la musique dans l'input  
 1. Téléchargement de la musique youtube en fichier .mp3  
 2. Conversion de la musique de .mp3 en .wav  
 3. Crétion d'un csv pour contenir les caractéristiques de la musique  
