@@ -33,7 +33,9 @@ Ce fichier donne les caractéristiques pour la musique comme le :
 
 ### Faire fonctionner l'algorithme  
 
-**Attention** : les chemins absolus dans les algorithmes sont en local, ils font donc les modifier pour faire marcher l'algorithme. 
+**Attention** : les chemins absolus dans les algorithmes sont en local, ils font donc les modifier pour faire marcher l'algorithme : 
+- audio.py : ligne 49, ligne 55, ligne 57
+- shazam.py : ligne 45, ligne 106
 
 Aller dans le dossier python_script et lancer la commande :  
 ```
